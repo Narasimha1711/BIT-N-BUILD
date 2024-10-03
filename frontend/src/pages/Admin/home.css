@@ -1,0 +1,122 @@
+/* General styling
+.dashboard {
+    font-family: 'Poppins', sans-serif;
+    
+    background-color: #f4f7fc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-content {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #4CAF50;
+}
+
+p {
+    color: #555;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.btn-add-funds {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-add-funds:hover {
+    background: linear-gradient(135deg, #388E3C, #66BB6A);
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-add-funds {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+} */
+
+
+.home{
+    display: flex;
+}
+.home .homeContainer{
+    flex: 6;
+}
+
+.home .homeContainer .widgets{
+    display: flex;
+    padding: 20px;
+    gap:20px;
+}

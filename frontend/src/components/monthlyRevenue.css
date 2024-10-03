@@ -1,0 +1,21 @@
+  /* MonthlyRevenueChart.css */
+  .chart-container {
+    margin: 20px auto; /* Center the chart horizontally */
+    padding: 20px; /* Add padding around the chart */
+    background-color: #ffffff; /* White background for the chart container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px; /* Max width for the container */
+  }
+  
+  .chart-title {
+    text-align: center; /* Center the title */
+    font-size: 1.5rem; /* Font size for the title */
+    color: #343a40; /* Dark color for the title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  /* Customize the chart elements */
+  .chartjs-render-monitor {
+    border-radius: 8px; /* Rounded corners for the chart */
+  }

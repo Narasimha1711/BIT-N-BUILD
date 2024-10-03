@@ -1,0 +1,24 @@
+.card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Font size for card title */
+    color: #333; /* Title color */
+}
+
+p {
+    font-size: 32px; /* Font size for count */
+    color: #4a90e2; /* Count color */
+    margin-top: 10px; /* Space between title and count */
+}
